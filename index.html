@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&family=Nixie+One&display=swap" rel="stylesheet">
+
+    <title>Clock</title>
+</head>
+<body id="body">
+
+   
+
+    <section id="container">
+    <div>
+        <div id="number">
+            <span id= "hrs" class="numb">00</span>
+            <span id="colon">:</span>
+            <span id= "min" class="numb">00</span>
+            <span id="colon">:</span>
+            <span id= "sec" class="numb">00</span>
+        </div>
+        <h1>clock by R A O S</h1>
+    </div>
+    </section>
+
+    <div>
+
+      
+    </div>
+
+    <script>
+
+        setInterval(()=>{
+            let hrs = document.getElementById("hrs");
+            let min = document.getElementById("min");
+            let sec = document.getElementById("sec");
+
+            let currentTime = new Date();
+
+            hrs.innerHTML = currentTime.getHours();
+            min.innerHTML = currentTime.getMinutes();
+            sec.innerHTML = currentTime.getSeconds();
+
+        },1000);
+
+        let day = document.getElementById("day)");
+        day.innerHTML = currentTime.getdate
+
+
+
+    </script>
+</body>
+</html>
