@@ -6,7 +6,7 @@
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 300px) {
 
 #container {
 
@@ -43,7 +43,7 @@ h1{
 
 }
 
-@media (max-width: 499px) {
+@media (max-width: 299px) {
 
     
 
